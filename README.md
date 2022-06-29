@@ -1,6 +1,6 @@
 # 批量上传到Git
 替换为项目和路径即可
-```
+```Batch
 SET /A counter=0
 SET dir_path[%counter%]=项目路径1
 SET dir_name[%counter%]=项目名称1
@@ -11,7 +11,7 @@ SET dir_name[%counter%]=项目名称2
 ```
 
 ## Demo
-```
+```Batch
 SET /A counter=0
 SET dir_path[%counter%]=测试路径1
 SET dir_name[%counter%]=D:/test1
