@@ -13,16 +13,16 @@ SET dir_name[%counter%]=项目名称2
 ## Demo
 ```Batch
 SET /A counter=0
-SET dir_path[%counter%]=测试路径1
-SET dir_name[%counter%]=D:/test1
+SET dir_path[%counter%]=D:/test1
+SET dir_name[%counter%]=测试路径1
 
 SET /A counter=%counter%+1
-SET dir_path[%counter%]=测试路径2
-SET dir_name[%counter%]=D:/test2
+SET dir_path[%counter%]=D:/test2
+SET dir_name[%counter%]=测试路径2
 
 SET /A counter=%counter%+1
-SET dir_path[%counter%]=测试路径3
-SET dir_name[%counter%]=D:/test3
+SET dir_path[%counter%]=D:/test3
+SET dir_name[%counter%]=测试路径3
 ```
 
 [批量提交到Git](https://www.cnblogs.com/hcbin/p/16329367.html)
